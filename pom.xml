@@ -36,9 +36,14 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<mainClass>course.project.pet-clinic-web.PetClinicApplication</mainClass>
-				</configuration>
+				<!-- <executions>
+					<execution>
+						<goals><goal>repackage</goal></goals> -->
+						<configuration>
+							<mainClass>course.project.pet_clinic_web.PetClinicApplication</mainClass>
+						</configuration>
+					<!-- </execution>
+				</executions> -->
 			</plugin>
 		</plugins>
 	</build>

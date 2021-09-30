@@ -1,16 +1,12 @@
 package course.project.pet_clinic_data.services;
 
-import java.util.Set;
+import java.util.List;
 
 import course.project.pet_clinic_data.model.Owner;
 
-public interface OwnerService {
+public interface OwnerService extends CRUDService<Owner, Long>{
 
     Owner findByLastName(String lastName);
-    
-    Owner findById(Long Id);
-    
-    Set<Owner> findAll();
-    
-    Owner save(Owner owner);
+
+    List<Owner> findAllByLastNameLike(String lastName);
 }

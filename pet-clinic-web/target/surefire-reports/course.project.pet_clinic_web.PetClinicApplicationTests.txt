@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: course.project.pet_clinic_web.PetClinicApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.773 s - in course.project.pet_clinic_web.PetClinicApplicationTests
